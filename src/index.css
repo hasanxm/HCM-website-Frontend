@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+@import "tailwindcss";
+
+/* Your custom CSS classes AFTER the import */
+.font-heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-subheading {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.purple-gradient-ellipse {
+  background: radial-gradient(50% 50% at 50% 50%, #af6dea94 0%, rgba(175, 109, 234, 0) 100%);
+}
+
+@layer utilities {
+  .hover-gradient:hover {
+    background-image: linear-gradient(to right top, #193f77, #39bef4);
+  }
+}
